@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 *
 {
     margin: 0;
@@ -11,7 +14,7 @@ body
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-family: 'Museo';
+    font-family: 'MuseoModerno', cursive;
     flex-direction: column;
     background-color: #a4e7ff;
     color: aliceblue;
@@ -30,7 +33,7 @@ section
 
 #display
 {
-    margin-top: 110px;
+    margin-top: 40px;
     font-size: 35px;
 }
 
