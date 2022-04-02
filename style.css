@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5;
+    user-select: none;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Museo';
+    flex-direction: column;
+    background-color: #a4e7ff;
+    color: aliceblue;
+}
+
+section
+{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #e52f4b;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;;
+}
+
+#display
+{
+    margin-top: 110px;
+    font-size: 35px;
+}
+
+#display h1
+{    
+    font-weight: 300;
+}
+
+#display h2
+{
+    margin-top: 23px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+#buttons
+{
+    margin-top: 40px;
+}
+
+button
+{
+    flex-direction: row;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #f5aa42;
+    font-size: 24px;
+    font-family: 'Museo';
+    font-weight: 100;
+}
+
+p
+{
+    font-weight: 600;
+}
+
+#save-btn
+{
+    background-color: #00c3a9;
+}
+#clear-btn
+{
+    background-color: #447bd3;
+    color: aliceblue;
+}
+
+
+#save-btn:hover
+
+{
+    cursor: pointer;
+    background-color: #121315;
+    color: #e52f4b;
+    transition: 0.5s;
+}
+#clear-btn:hover
+{
+    cursor: pointer;
+    background-color: #121315;
+    color: #e52f4b;
+    transition: 0.5s;
+    
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: #121315;
+    color: #e52f4b;
+    transition: 0.5s;
+}
